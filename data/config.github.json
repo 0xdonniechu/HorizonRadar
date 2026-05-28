@@ -8,11 +8,18 @@
     "prompt": "High-quality updates on Artificial Intelligence (AI models, open-source tools, LLMs), tech industry trends, business market analysis, global economic shifts, and innovative startup ecosystems.",
     "threshold": 7.0
   },
-  "sources": [
-    {
-      "type": "rss",
-      "id": "latent_space",
-      "url": "https://www.latent.space/feed"
-    }
-  ]
+  "sources": {
+    "rss": [
+      {
+        "id": "latent_space",
+        "url": "https://www.latent.space/feed"
+      }
+    ],
+    "reddit_subreddit": [
+      {
+        "id": "localllama",
+        "name": "LocalLLaMA"
+      }
+    ]
+  }
 }
