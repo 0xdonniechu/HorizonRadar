@@ -1,0 +1,12 @@
+{
+  "ai": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash",
+    "api_key_env": "DEEPSEEK_API_KEY"
+  },
+  "filtering": {
+    "prompt": "High-quality updates on Artificial Intelligence...",
+    "threshold": 7.0
+  }
+  // Giữ nguyên các phần cấu hình nguồn tin sources bên dưới của bạn...
+}
