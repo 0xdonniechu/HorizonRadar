@@ -6,19 +6,55 @@
   },
   "filtering": {
     "prompt": "High-quality updates on Artificial Intelligence (AI models, open-source tools, LLMs), tech industry trends, business market analysis, global economic shifts, and innovative startup ecosystems.",
-    "threshold": 7.0
+    "threshold": 7.0,
+    "time_window_hours": 48
   },
   "sources": {
     "rss": [
       {
         "id": "latent_space",
+        "name": "The AI Engineer newsletter + Top technical AI podcast",
         "url": "https://www.latent.space/feed"
+      },
+      {
+        "id": "openai_blog",
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/news/rss.xml"
+      },
+      {
+        "id": "simon_willison",
+        "name": "Simon Willison's Weblog",
+        "url": "https://simonwillison.net/atom/everything/"
+      },
+      {
+        "id": "pragmatic_engineer",
+        "name": "The Pragmatic Engineer",
+        "url": "https://newsletter.pragmaticengineer.com/feed"
+      },
+      {
+        "id": "machine_learning_mastery",
+        "name": "Machine Learning Mastery",
+        "url": "https://machinelearningmastery.com/feed/"
       }
     ],
     "reddit_subreddit": [
       {
         "id": "localllama",
         "name": "LocalLLaMA"
+      },
+      {
+        "id": "machinelearning",
+        "name": "MachineLearning"
+      },
+      {
+        "id": "stablediffusion",
+        "name": "StableDiffusion"
+      }
+    ],
+    "github_repo": [
+      {
+        "id": "vllm",
+        "url": "https://github.com/vllm-project/vllm"
       }
     ]
   }
